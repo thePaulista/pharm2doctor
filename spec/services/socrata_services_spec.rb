@@ -7,12 +7,13 @@ describe 'Socrata Service' do
       doctors = service.get_doctor(physician_first_name: "BOBBY")
       doctor = doctors.first
 
-      expect(doctors.count).to eq 19
+      expect(doctors.count).to eq 811
       expect(doctor[:physician_last_name]).to eq "ABRAHAM"
       expect(doctor[:form_of_payment_or_transfer_of_value]).to eq "Food and Beverage"
       expect(doctor[:applicable_manufacturer_or_applicable_gpo_making_payment_name]).to eq "FOREST PHARMACEUTICALS, INC."
       expect(doctor[:recipient_city]).to eq "Tallahassee"
-      expect(doctor[:physician_license_state_code1]).to eq "FL"
+      expect(doctor[:total_amount_of_payment_usdollar]).to eq "6.46"
+      expect(doctor[:program_year]).to eq "2013"
     end
   end
 end

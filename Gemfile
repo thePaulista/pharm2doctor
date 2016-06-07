@@ -41,5 +41,5 @@ group :development do
 end
 
 group :production do
-  gem 'rails_12factor'
+  gem 'rails_12factor' #will give you better erros but must be wrapped in production
 end
