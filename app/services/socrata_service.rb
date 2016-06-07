@@ -6,7 +6,7 @@ class SocrataService
   end
 
   def get_doctor(params)
-    conn.get("resource/anxy-rykp.json", params)
+    parse(conn.get("resource/anxy-rykp.json", params))
   end
 
   private
@@ -16,7 +16,7 @@ class SocrataService
   end
 
   def parse(response)
-    JSON.parse(respone.body, symbolize_names: :true)
+    JSON.parse(response.body, symbolize_names: :true)
   end
 
 end
