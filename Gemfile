@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 
 gem 'rails', '4.2.6'
-gem 'sqlite3'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
@@ -17,6 +16,8 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'unicorn'
 gem 'faraday'
 gem 'figaro'
+gem 'rails_12factor'
+gem "omniauth-google-oauth2"
 
 group :development, :test do
   gem 'factory_girl_rails'
@@ -29,6 +30,9 @@ group :development, :test do
   gem 'simplecov', require: false
 end
 
+group :test do
+  gem 'mocha'
+end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views

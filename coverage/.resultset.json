@@ -1,0 +1,18 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/Hedy/3module/pharm2doctor/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Hedy/3module/pharm2doctor/app/controllers/application_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1465265079
+  }
+}
