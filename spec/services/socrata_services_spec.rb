@@ -37,6 +37,26 @@ describe 'Socrata Service' do
       expect(doctor[:total_amount_of_payment_usdollars]).to eq "24.21"
     end
   end
+
+   it "fetches basic payment data by a two inputs" do
+    VCR.use_cassette("socrata service#get_doctor by city and name") do
+      service = SocrataService.new
+      doctors = service.get_doctor(recipient_city: "ARLINGTON", recipient_state: "VA" )
+      doctor = doctors.first
+
+      expect(doctors.count).to eq 1000
+      expect(doctor[:recipient_city]).to eq "ARLINGTON"
+      expect(doctor[:recipient_state]).to eq "VA"
+      expect(doctor[:physician_first_name]).to eq "CHARLES"
+      expect(doctor[:physician_last_name]).to eq "RIEDEL"
+      expect(doctor[:physician_primary_type]).to eq "Medical Doctor"
+      expect(doctor[:form_of_payment_or_transfer_of_value]).to eq "In-kind items and services"
+      expect(doctor[:nature_of_payment_or_transfer_of_value]).to eq "Food and Beverage"
+      expect(doctor[:applicable_manufacturer_or_applicable_gpo_making_payment_name]).to eq "SI-Bone, Inc."
+      expect(doctor[:program_year]).to eq "2013"
+      expect(doctor[:total_amount_of_payment_usdollars]).to eq "38.34"
+    end
+  end
 end
 
 #{:applicable_manufacturer_or_applicable_gpo_making_payment_country=>"United States",

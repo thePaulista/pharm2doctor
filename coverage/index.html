@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2016-06-07T14:53:45-06:00">2016-06-07T14:53:45-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2016-06-07T15:27:12-06:00">2016-06-07T15:27:12-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -24,8 +24,8 @@
     (<span class="covered_percent"><span class="red">68.75%</span></span>
      covered at
      <span class="covered_strength">
-       <span class="red">
-         0.94
+       <span class="green">
+         1.19
        </span>
     </span> hits/line)
   </h2>
@@ -77,7 +77,7 @@
         <td>10</td>
         <td>10</td>
         <td>0</td>
-        <td>1.4</td>
+        <td>1.8</td>
       </tr>
       
     </tbody>
@@ -335,7 +335,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.4
+         1.8
        </span>
     </span> hits/line)
   </h2>
@@ -367,7 +367,7 @@
         <td>10</td>
         <td>10</td>
         <td>0</td>
-        <td>1.4</td>
+        <td>1.8</td>
       </tr>
       
     </tbody>
@@ -495,8 +495,8 @@
           <code class="ruby">  def initialize</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="4">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="4">
+          <span class="hits">3</span>
           
           <code class="ruby">    @conn = Faraday.new(url: &quot;https://openpaymentsdata.cms.gov&quot; )</code>
         </li>
@@ -525,8 +525,8 @@
           <code class="ruby">  def get_doctor(params)</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="9">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="9">
+          <span class="hits">3</span>
           
           <code class="ruby">    parse(conn.get(&quot;resource/anxy-rykp.json&quot;, params))</code>
         </li>
@@ -561,8 +561,8 @@
           <code class="ruby">  def conn</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="15">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="15">
+          <span class="hits">3</span>
           
           <code class="ruby">    @conn</code>
         </li>
@@ -585,8 +585,8 @@
           <code class="ruby">  def parse(response)</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="19">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="3" data-linenumber="19">
+          <span class="hits">3</span>
           
           <code class="ruby">    JSON.parse(response.body, symbolize_names: :true)</code>
         </li>
