@@ -5,6 +5,30 @@
         1,
         null
       ],
+      "/Users/Hedy/3module/pharm2doctor/app/services/socrata_service.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/Hedy/3module/pharm2doctor/app/controllers/application_controller.rb": [
         0,
         0,
@@ -13,6 +37,6 @@
         0
       ]
     },
-    "timestamp": 1465273466
+    "timestamp": 1465329852
   }
 }
