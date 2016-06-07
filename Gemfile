@@ -24,6 +24,8 @@ group :development, :test do
   gem 'pry-rails'
   gem 'better_errors'
   gem 'capybara'
+  gem 'vcr'
+  gem 'webmock'
   gem 'rspec-rails'
   gem 'database_cleaner'
   gem 'shoulda-matchers', '~> 3.1'
