@@ -16,7 +16,6 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'unicorn'
 gem 'faraday'
 gem 'figaro'
-gem 'rails_12factor'
 gem "omniauth-google-oauth2"
 
 group :development, :test do
@@ -41,3 +40,6 @@ group :development do
   gem 'web-console', '~> 2.0'
 end
 
+group :production do
+  gem 'rails_12factor'
+end
