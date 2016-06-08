@@ -5,6 +5,67 @@
         1,
         null
       ],
+      "/Users/Hedy/3module/pharm2doctor/app/helpers/states_helper.rb": [
+        1,
+        null,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/Hedy/3module/pharm2doctor/app/models/user.rb": [
         1,
         1,
@@ -18,8 +79,10 @@
         null,
         null
       ],
-      "/Users/Hedy/3module/pharm2doctor/app/controllers/doctors_controller.rb": [
-
+      "/Users/Hedy/3module/pharm2doctor/app/models/doctor.rb": [
+        1,
+        null,
+        null
       ],
       "/Users/Hedy/3module/pharm2doctor/app/controllers/welcome_controller.rb": [
         1,
@@ -79,8 +142,14 @@
         null,
         null,
         null
+      ],
+      "/Users/Hedy/3module/pharm2doctor/app/controllers/doctors_controller.rb": [
+        0,
+        0,
+        0,
+        0
       ]
     },
-    "timestamp": 1465422364
+    "timestamp": 1465425328
   }
 }

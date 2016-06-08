@@ -5,5 +5,4 @@ Rails.application.routes.draw do
   delete "/logout", to: "sessions#destroy"
 
   get "/search", to: "doctors#new", as: :search
-
 end
