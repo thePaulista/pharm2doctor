@@ -18,6 +18,9 @@
         null,
         null
       ],
+      "/Users/Hedy/3module/pharm2doctor/app/controllers/doctors_controller.rb": [
+
+      ],
       "/Users/Hedy/3module/pharm2doctor/app/controllers/welcome_controller.rb": [
         1,
         1,
@@ -78,6 +81,6 @@
         null
       ]
     },
-    "timestamp": 1465419088
+    "timestamp": 1465422364
   }
 }

@@ -1,0 +1,3 @@
+<%= form_for @doctor, url: search_url do |f| %>
+<%= f.select(:state, options_for_select(us_states, "CA")) %>
+<% end %>
