@@ -16,7 +16,7 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'unicorn'
 gem 'faraday'
 gem 'figaro'
-gem "omniauth-google-oauth2"
+gem "omniauth-twitter"
 
 group :development, :test do
   gem 'factory_girl_rails'
@@ -29,6 +29,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'shoulda-matchers', '~> 3.1'
   gem 'simplecov', require: false
+  gem 'rack_session_access'
 end
 
 group :test do

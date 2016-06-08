@@ -5,6 +5,54 @@
         1,
         null
       ],
+      "/Users/Hedy/3module/pharm2doctor/app/models/user.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/Hedy/3module/pharm2doctor/app/controllers/welcome_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/Hedy/3module/pharm2doctor/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        4,
+        null,
+        null
+      ],
+      "/Users/Hedy/3module/pharm2doctor/app/controllers/sessions_controller.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null
+      ],
       "/Users/Hedy/3module/pharm2doctor/app/services/socrata_service.rb": [
         1,
         null,
@@ -28,15 +76,8 @@
         null,
         null,
         null
-      ],
-      "/Users/Hedy/3module/pharm2doctor/app/controllers/application_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0
       ]
     },
-    "timestamp": 1465332825
+    "timestamp": 1465419088
   }
 }
