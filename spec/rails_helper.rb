@@ -9,6 +9,7 @@ require 'capybara/rails'
 require 'database_cleaner'
 require 'webmock'
 require 'vcr'
+require "rack_session_access/capybara"
 
 Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 
