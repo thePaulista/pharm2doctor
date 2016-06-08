@@ -16,7 +16,7 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'unicorn'
 gem 'faraday'
 gem 'figaro'
-gem "omniauth-google-oauth2"
+gem "omniauth-twitter"
 
 group :development, :test do
   gem 'factory_girl_rails'

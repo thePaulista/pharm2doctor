@@ -1,0 +1,7 @@
+<% if current_user %>
+  Hello, <%= current_user.name if current_user %>
+  <%= link_to "Logout", logout_path, method: :delete %> 
+<% else %> 
+  <%= link_to "Login with Twitter", twitter_login_path %>
+<% end %>
+
