@@ -2,11 +2,11 @@ class SocrataService
 
   def initialize
     @conn = Faraday.new(url: "https://openpaymentsdata.cms.gov" )
-   # conn.params[:app_token] = ENV["socrata_app_token"]
+    conn.headers["X-App_Token"] = ENV["socrata_app_token"]
   end
 
   def get_doctor(params)
-    parse(conn.get("resource/anxy-rykp.json", params))
+   x =  parse(conn.get("resource/anxy-rykp.json", params))
   end
 
   private

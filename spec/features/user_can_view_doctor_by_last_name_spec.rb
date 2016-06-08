@@ -17,6 +17,5 @@ feature 'User can view doctor by first name' do
     expect(doctor.count).to eq "2"
     expect(doctor.first.first_name).to eq "John"
     expect(doctor.first.last_name).to eq "Smith"
-
   end
 end
