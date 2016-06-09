@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6"> 
+      <%= form_for(:doctor, method: "get", url: search_path) do |f| %>
+        <fieldset>
+          <ol>
+            <div class="form-group">
+              <%= f.text_field :first_name, :placeholder => "First Name" %>
+              <%= f.text_field :last_name, :placeholder => "Last Name" %>
+              <%#= f.select(:state, options_for_select(us_states, "CA")) %>
+            </div>
+          </ol>
+        </fieldset>
+      <% end %>
+    </div>
+  </div>
+</div>
