@@ -1,13 +1,15 @@
 require 'rails_helper'
 
-feature 'User can view doctor by first name' do
+xfeature 'User can view doctor by first name' do
   scenario 'successfully' do
-    doc1, doc2, doc3 = create_list(:doctor, 3)
+    doc1 = Doctor.create!(first_name: "John", last_name: "Smith")
+    doc2 = Doctor.create!(first_name: "John", last_name: "Smith")
+    doc2 = Doctor.create!(first_name: "Jane", last_name: "Smith")
 
     visit search_path
 
     fill_in "First Name", with: "John"
-    fill_in "Last Name", with: ""
+    fill_in "Last Name", with: "Smith"
     click_button "Search"
 
     within("h3") do

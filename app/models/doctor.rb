@@ -7,7 +7,7 @@ class Doctor
               :md_specialty,
               :nature_of_payment,
               :form_of_payment,
-              :pharma_namea,
+              :pharma_name,
               :year,
               :total_amount
 
@@ -29,7 +29,7 @@ class Doctor
     @service ||= SocrataService.new
   end
 
-  def self.find_by(params)
-    service.get_doctor(params).map { |doctor| Doctor.new(doctor) }
+  def self.find_by(first_name, last_name)
+    service.doctors(first_name, last_name).map { |doctor| Doctor.new(doctor) }
   end
 end
