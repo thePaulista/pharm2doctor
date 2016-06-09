@@ -6,7 +6,7 @@ class SocrataService
   end
 
   def get_doctor(params)
-   x =  parse(conn.get("resource/anxy-rykp.json", params))
+    parse(conn.get("resource/anxy-rykp.json", params))
   end
 
   private

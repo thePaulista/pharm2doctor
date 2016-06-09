@@ -12,9 +12,9 @@ describe "Doctor" do
       expect(doctor.md_specialty).to eq "Allopathic & Osteopathic Physicians/ Family Medicine"
       expect(doctor.nature_of_payment).to eq "In-kind items and services"
       expect(doctor.state).to eq "NC"
-      expect(doctor.address).to eq "257 Biltmore Ave."
-      expect(doctor.amount).to eq "118.61"
-      expect(doctor.year).to eq "20113"
+      expect(doctor.address).to eq "257 Biltmore Ave"
+      expect(doctor.total_amount).to eq "118.61"
+      expect(doctor.year).to eq "2013"
     end
   end
 end
