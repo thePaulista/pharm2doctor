@@ -14,26 +14,26 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2016-06-08T18:00:02-06:00">2016-06-08T18:00:02-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2016-06-09T00:19:04-06:00">2016-06-09T00:19:04-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="yellow">85.48%</span></span>
+    (<span class="covered_percent"><span class="yellow">86.57%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         6.55
+         1.09
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>9</b> files in total.
-    <b>62</b> relevant lines. 
-    <span class="green"><b>53</b> lines covered</span> and
+    <b>67</b> relevant lines. 
+    <span class="green"><b>58</b> lines covered</span> and
     <span class="red"><b>9</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -117,7 +117,7 @@
         <td>18</td>
         <td>18</td>
         <td>0</td>
-        <td>19.7</td>
+        <td>1.1</td>
       </tr>
       
       <tr>
@@ -133,11 +133,11 @@
       <tr>
         <td class="strong"><a href="#9ede9f6ec2f2eea1bf213bb9234b69f12eb78b6c" class="src_link" title="app/services/socrata_service.rb">app/services/socrata_service.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>22</td>
-        <td>11</td>
-        <td>11</td>
+        <td>30</td>
+        <td>16</td>
+        <td>16</td>
         <td>0</td>
-        <td>2.2</td>
+        <td>1.6</td>
       </tr>
       
     </tbody>
@@ -230,7 +230,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         13.95
+         1.07
        </span>
     </span> hits/line)
   </h2>
@@ -262,7 +262,7 @@
         <td>18</td>
         <td>18</td>
         <td>0</td>
-        <td>19.7</td>
+        <td>1.1</td>
       </tr>
       
       <tr>
@@ -455,15 +455,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.2
+         1.6
        </span>
     </span> hits/line)
   </h2>
   <a name="Ungrouped"></a>
   <div>
     <b>1</b> files in total.
-    <b>11</b> relevant lines. 
-    <span class="green"><b>11</b> lines covered</span> and
+    <b>16</b> relevant lines. 
+    <span class="green"><b>16</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -483,11 +483,11 @@
       <tr>
         <td class="strong"><a href="#9ede9f6ec2f2eea1bf213bb9234b69f12eb78b6c" class="src_link" title="app/services/socrata_service.rb">app/services/socrata_service.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>22</td>
-        <td>11</td>
-        <td>11</td>
+        <td>30</td>
+        <td>16</td>
+        <td>16</td>
         <td>0</td>
-        <td>2.2</td>
+        <td>1.6</td>
       </tr>
       
     </tbody>
@@ -606,13 +606,13 @@
         <li class="missed" data-hits="0" data-linenumber="2">
           
           
-          <code class="ruby">  def new</code>
+          <code class="ruby">  def index</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="3">
           
           
-          <code class="ruby">   # @doctors = Doctor.find_by(params[:first_name], param[:last_name], params[:city], params[:state])</code>
+          <code class="ruby">    @doctors = Doctor.find_by(params[:physician_first_name], params[:physician_last_name])</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="4">
@@ -1254,7 +1254,7 @@
         <li class="never" data-hits="" data-linenumber="10">
           
           
-          <code class="ruby">              :pharma_namea,</code>
+          <code class="ruby">              :pharma_name,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="11">
@@ -1281,68 +1281,68 @@
           <code class="ruby">  def initialize(data)</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="15">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
           
           <code class="ruby">    @first_name        = data[:physician_first_name]</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="16">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
           
           <code class="ruby">    @last_name         = data[:physician_last_name]</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="17">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
           
           <code class="ruby">    @address           = data[:recipient_primary_business_street_address_line1]</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="18">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
           
           <code class="ruby">    @city              = data[:recipient_city]</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="19">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
           
           <code class="ruby">    @state             = data[:recipient_state]</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="20">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
           
           <code class="ruby">    @md_specialty      = data[:physician_specialty]</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="21">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="1" data-linenumber="21">
+          <span class="hits">1</span>
           
           <code class="ruby">    @nature_of_payment = data[:form_of_payment_or_transfer_of_value]</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="22">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="1" data-linenumber="22">
+          <span class="hits">1</span>
           
           <code class="ruby">    @form_of_payment   = data[:nature_of_payment_or_transfer_of_value]</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="23">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
           
           <code class="ruby">    @pharma_name       = data[:applicable_manufacturer_or_applicable_gpo_making_payment_name]</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="24">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="1" data-linenumber="24">
+          <span class="hits">1</span>
           
           <code class="ruby">    @year              = data[:program_year]</code>
         </li>
       
-        <li class="covered" data-hits="29" data-linenumber="25">
-          <span class="hits">29</span>
+        <li class="covered" data-hits="1" data-linenumber="25">
+          <span class="hits">1</span>
           
           <code class="ruby">    @total_amount      = data[:total_amount_of_payment_usdollars]</code>
         </li>
@@ -1386,13 +1386,13 @@
         <li class="covered" data-hits="1" data-linenumber="32">
           <span class="hits">1</span>
           
-          <code class="ruby">  def self.find_by(params)</code>
+          <code class="ruby">  def self.find_by(first_name, last_name)</code>
         </li>
       
-        <li class="covered" data-hits="30" data-linenumber="33">
-          <span class="hits">30</span>
+        <li class="covered" data-hits="2" data-linenumber="33">
+          <span class="hits">2</span>
           
-          <code class="ruby">    service.get_doctor(params).map { |doctor| Doctor.new(doctor) }</code>
+          <code class="ruby">    service.doctors(first_name, last_name).map { |doctor| Doctor.new(doctor) }</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="34">
@@ -1500,8 +1500,8 @@
     <h3>app/services/socrata_service.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>11</b> relevant lines. 
-      <span class="green"><b>11</b> lines covered</span> and
+      <b>16</b> relevant lines. 
+      <span class="green"><b>16</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -1527,14 +1527,14 @@
           <code class="ruby">  def initialize</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="4">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="2" data-linenumber="4">
+          <span class="hits">2</span>
           
           <code class="ruby">    @conn = Faraday.new(url: &quot;https://openpaymentsdata.cms.gov&quot; )</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="5">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="2" data-linenumber="5">
+          <span class="hits">2</span>
           
           <code class="ruby">    conn.headers[&quot;X-App_Token&quot;] = ENV[&quot;socrata_app_token&quot;]</code>
         </li>
@@ -1554,88 +1554,136 @@
         <li class="covered" data-hits="1" data-linenumber="8">
           <span class="hits">1</span>
           
-          <code class="ruby">  def get_doctor(params)</code>
+          <code class="ruby">  def get_doctor(first_name, last_name)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="9">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="2" data-linenumber="9">
+          <span class="hits">2</span>
           
-          <code class="ruby">    parse(conn.get(&quot;resource/anxy-rykp.json&quot;, params))</code>
+          <code class="ruby">    @conn.get do |req|</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="10">
+        <li class="covered" data-hits="2" data-linenumber="10">
+          <span class="hits">2</span>
           
-          
-          <code class="ruby">  end</code>
+          <code class="ruby">      req.url(&quot;resource/anxy-rykp.json&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="11">
+        <li class="covered" data-hits="2" data-linenumber="11">
+          <span class="hits">2</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">      req.params[&quot;physician_first_name&quot;] = first_name</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="12">
+          <span class="hits">2</span>
           
-          <code class="ruby">  private</code>
+          <code class="ruby">      req.params[&quot;physician_last_name&quot;] = last_name</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="13">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">    #conn.get(&quot;resource/anxy-rykp.json&quot;, first_name, last_name)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="14">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="14">
           
-          <code class="ruby">  def conn</code>
+          
+          <code class="ruby">    end</code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="15">
-          <span class="hits">6</span>
+        <li class="never" data-hits="" data-linenumber="15">
           
-          <code class="ruby">    @conn</code>
+          
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="16">
           
           
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="17">
-          
-          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="18">
+        <li class="covered" data-hits="1" data-linenumber="17">
           <span class="hits">1</span>
           
-          <code class="ruby">  def parse(response)</code>
+          <code class="ruby">  def doctors(first_name, last_name)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="19">
-          <span class="hits">3</span>
+        <li class="covered" data-hits="2" data-linenumber="18">
+          <span class="hits">2</span>
           
-          <code class="ruby">    JSON.parse(response.body, symbolize_names: :true)</code>
+          <code class="ruby">    parse(get_doctor(first_name, last_name))</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="20">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="21">
+        <li class="covered" data-hits="1" data-linenumber="21">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  private</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="22">
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def conn</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="24">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    @conn</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="27">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def parse(response)</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="28">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    JSON.parse(response.body, symbolize_names: :true)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="29">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="30">
           
           
           <code class="ruby">end</code>

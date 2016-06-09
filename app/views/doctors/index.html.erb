@@ -1,6 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-6"> 
+      <h2> Search for a physician by first and last names</h2>
       <%= form_for(:doctor, method: "get", url: search_path) do |f| %>
         <fieldset>
           <ol>
@@ -8,6 +9,7 @@
               <%= f.text_field :first_name, :placeholder => "First Name" %>
               <%= f.text_field :last_name, :placeholder => "Last Name" %>
               <%#= f.select(:state, options_for_select(us_states, "CA")) %>
+              <%= f.submit "Search", search_path %>
             </div>
           </ol>
         </fieldset>

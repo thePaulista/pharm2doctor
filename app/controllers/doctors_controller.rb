@@ -1,5 +1,5 @@
 class DoctorsController < ApplicationController
-  def new
-   # @doctors = Doctor.find_by(params[:first_name], param[:last_name], params[:city], params[:state])
+  def index
+    @doctors = Doctor.find_by(params[:physician_first_name], params[:physician_last_name])
   end
 end

@@ -1,12 +1,12 @@
 require 'rails_helper'
 
 describe "Doctor" do
-  it "finds by first name" do
+  it "finds by name" do
     VCR.use_cassette("doctor#find_by") do
-      doctors = Doctor.find_by(physician_first_name: "Bridget")
+      doctors = Doctor.find_by( "Bridget", "King")
       doctor = doctors.first
 
-      expect(doctors.count).to eq 29
+      expect(doctors.count).to eq 1
       expect(doctor.first_name).to eq "Bridget"
       expect(doctor.last_name).to eq "King"
       expect(doctor.md_specialty).to eq "Allopathic & Osteopathic Physicians/ Family Medicine"
